@@ -94,7 +94,7 @@ export default function Portfolio() {
             return <Company key={"KC" + index} imgSrc={item} altTag={"company-" + index}/>
         })}
       </div>
-      <Link to="/companies" className="action">
+      <Link to="/sinc/companies" className="action">
         View All Companies <img src={arrow} alt="down-right arrow" />
       </Link>
     </section>

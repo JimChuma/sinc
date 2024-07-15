@@ -60,7 +60,7 @@ export default function Resource() {
         </div>
       </div>
       </div>
-      <Link to="/jobs" className="action">
+      <Link to="/sinc/blog" className="action">
         See More Blogs & Resources
       </Link>
     </section>

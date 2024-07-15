@@ -40,7 +40,7 @@ export default function CoFound() {
           </p>
         </div>
       </div>
-      <Link to="/build" className="action">
+      <Link to="/sinc/build" className="action">
         Build your dream <img src={arrow} alt="down-right arrow" />
       </Link>
     </section>

@@ -22,38 +22,38 @@ export default function Layout() {
         <div className="container">
           <div className="inner">
             <div className="list">
-              <Link to="/">
+              <Link to="/sinc">
                 <img src={logo} alt="sinc logo" />
               </Link>
               <ul>
                 <li>
-                  <Link to="/about">About</Link>
+                  <Link to="/sinc/about">About</Link>
                 </li>
                 <li>
-                  <Link to="/sip">SIP</Link>
+                  <Link to="/sinc/sip">SIP</Link>
                 </li>
                 <li>
-                  <Link to="/studio">Studio</Link>
+                  <Link to="/sinc/studio">Studio</Link>
                 </li>
                 <li>
-                  <Link to="/seeq">SEEQ</Link>
+                  <Link to="/sinc/seeq">SEEQ</Link>
                 </li>
                 <li>
-                  <Link to="/platforms">Platforms</Link>
+                  <Link to="/sinc/platforms">Platforms</Link>
                 </li>
                 <li>
-                  <Link to="/initiatives">Initiatives</Link>
+                  <Link to="/sinc/initiatives">Initiatives</Link>
                 </li>
                 <li>
-                  <Link to="/more">More</Link>
+                  <Link to="/sinc/more">More</Link>
                 </li>
               </ul>
             </div>
             <div className="action">
-              <Link to="/sinc" className="btn-one">
+              <Link to="/sinc/sign-up" className="btn-one">
                 SINC With Us
               </Link>
-              <Link to="/apply" className="btn-two">
+              <Link to="/sinc/apply" className="btn-two">
                 Apply to SIP 1.0
               </Link>
             </div>
@@ -82,7 +82,7 @@ export default function Layout() {
           <div className="container">
             <div className="grid">
               <div>
-                <Link to="/">
+                <Link to="/sinc">
                   <img src={logoWhite} alt="sinc logo" />
                 </Link>
                 <p>
@@ -94,57 +94,57 @@ export default function Layout() {
                 </p>
               </div>
               <div className="links">
-                <Link to="/platforms">Platforms</Link>
+                <Link to="/sinc/platforms">Platforms</Link>
                 <div>
-                  <Link to="/platforms">Kofoundme</Link>
-                  <Link to="/platforms">InResidency</Link>
-                  <Link to="/platforms">Service Market</Link>
-                  <Link to="/platforms">Founders School</Link>
-                  <Link to="/platforms">Metty</Link>
-                  <Link to="/platforms">Grantty</Link>
-                  <Link to="/platforms">Boldtell</Link>
-                  <Link to="/platforms">Chekwa</Link>
+                  <Link to="/sinc/platforms">Kofoundme</Link>
+                  <Link to="/sinc/platforms">InResidency</Link>
+                  <Link to="/sinc/platforms">Service Market</Link>
+                  <Link to="/sinc/platforms">Founders School</Link>
+                  <Link to="/sinc/platforms">Metty</Link>
+                  <Link to="/sinc/platforms">Grantty</Link>
+                  <Link to="/sinc/platforms">Boldtell</Link>
+                  <Link to="/sinc/platforms">Chekwa</Link>
                 </div>
               </div>
               <div className="links">
-                <Link to="/initiatives">Initiatives</Link>
+                <Link to="/sinc/initiatives">Initiatives</Link>
                 <div>
-                  <Link to="/initiatives">Jabi Plains</Link>
-                  <Link to="/initiatives">Local Pricing Initiative</Link>
-                  <Link to="/initiatives">Scholarship Program</Link>
-                  <Link to="/initiatives">SSMN Pricing</Link>
-                  <Link to="/initiatives">University STEM</Link>
-                  <Link to="/initiatives">University InResidency</Link>
-                  <Link to="/initiatives" className="flag-link">
+                  <Link to="/sinc/initiatives">Jabi Plains</Link>
+                  <Link to="/sinc/initiatives">Local Pricing Initiative</Link>
+                  <Link to="/sinc/initiatives">Scholarship Program</Link>
+                  <Link to="/sinc/initiatives">SSMN Pricing</Link>
+                  <Link to="/sinc/initiatives">University STEM</Link>
+                  <Link to="/sinc/initiatives">University InResidency</Link>
+                  <Link to="/sinc/initiatives" className="flag-link">
                     1M Nigeria <img src={flag} alt="Nigerian flag" /> Products
                   </Link>
-                  <Link to="/initiatives">Founders Festival</Link>
+                  <Link to="/sinc/initiatives">Founders Festival</Link>
                 </div>
               </div>
               <div className="links">
-                <Link to="/about">About Us</Link>
+                <Link to="/sinc/about">About Us</Link>
                 <div>
-                  <Link to="/about">Who We Are</Link>
-                  <Link to="/about">Our People</Link>
-                  <Link to="/about">Concept Innovations</Link>
-                  <Link to="/about">Our Process</Link>
-                  <Link to="/about">Investors Network</Link>
-                  <Link to="/about">CSR & Events</Link>
-                  <Link to="/about">Career</Link>
-                  <Link to="/about">Contact</Link>
+                  <Link to="/sinc/about">Who We Are</Link>
+                  <Link to="/sinc/about">Our People</Link>
+                  <Link to="/sinc/about">Concept Innovations</Link>
+                  <Link to="/sinc/about">Our Process</Link>
+                  <Link to="/sinc/about">Investors Network</Link>
+                  <Link to="/sinc/about">CSR & Events</Link>
+                  <Link to="/sinc/about">Career</Link>
+                  <Link to="/sinc/about">Contact</Link>
                 </div>
               </div>
               <div className="links">
-                <Link to="/more">More</Link>
+                <Link to="/sinc/more">More</Link>
                 <div>
-                  <Link to="/more">Services</Link>
-                  <Link to="/more">Equity Jobs</Link>
-                  <Link to="/more">EIR Program</Link>
-                  <Link to="/more">Offers</Link>
-                  <Link to="/more">Innovation News</Link>
-                  <Link to="/more">FAQ</Link>
-                  <Link to="/more">Blog & Resources</Link>
-                  <Link to="/more">Press</Link>
+                  <Link to="/sinc/more">Services</Link>
+                  <Link to="/sinc/more">Equity Jobs</Link>
+                  <Link to="/sinc/more">EIR Program</Link>
+                  <Link to="/sinc/more">Offers</Link>
+                  <Link to="/sinc/more">Innovation News</Link>
+                  <Link to="/sinc/more">FAQ</Link>
+                  <Link to="/sinc/more">Blog & Resources</Link>
+                  <Link to="/sinc/more">Press</Link>
                 </div>
               </div>
             </div>
@@ -195,9 +195,9 @@ export default function Layout() {
                   © {currentYear} SINC Partners Ltd. All rights reserved
                 </span>
                 <div>
-                  <Link to="/privacy-policy ">Privacy Policy</Link>
-                  <Link to="/privacy-policy ">Terms of Service</Link>
-                  <Link to="/privacy-policy ">Security</Link>
+                  <Link to="/sinc/privacy-policy ">Privacy Policy</Link>
+                  <Link to="/sinc/privacy-policy ">Terms of Service</Link>
+                  <Link to="/sinc/privacy-policy ">Security</Link>
                 </div>
               </div>
             </div>

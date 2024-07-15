@@ -60,7 +60,7 @@ export default function EquityJob() {
           );
         })}
       </div>
-      <Link to="/jobs" className="action">
+      <Link to="/sinc/jobs" className="action">
         See More Equity Jobs <img src={arrow} alt="down-right arrow" />
       </Link>
     </section>

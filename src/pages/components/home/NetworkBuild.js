@@ -22,7 +22,7 @@ export default function NetworkBuild() {
               the MVP of your app or web application and validate it.
             </strong>
           </div>
-          <Link to="network-one">
+          <Link to="/sinc/network-one">
             Learn More <img src={arrow} alt="down-right arrow" />
           </Link>
         </div>
@@ -40,7 +40,7 @@ export default function NetworkBuild() {
               months
             </strong>
           </div>
-          <Link to="network-two">
+          <Link to="/sinc/network-two">
             Learn More <img src={arrow} alt="down-right arrow" />
           </Link>
         </div>

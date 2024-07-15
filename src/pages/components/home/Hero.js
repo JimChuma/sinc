@@ -11,7 +11,7 @@ export default function Hero() {
             willing to offer their services to amazing startups in exchange for
             minute equity (usually 0.5% to 2%).
           </p>
-          <Link to="/sinc">SINC With Us</Link>
+          <Link to="/sinc/sign-up">SINC With Us</Link>
         </div>
       </div>
       <div className="background-image"></div>

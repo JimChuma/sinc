@@ -32,7 +32,7 @@ export default function EquityCard({ imgSrc, altTag, position, industry, url }) 
           <span className="value">Full-time</span>
         </div>
       </div>
-      <Link to={"/" + url }>View Details</Link>
+      <Link to={"/sinc/" + url }>View Details</Link>
     </div>
   );
 }

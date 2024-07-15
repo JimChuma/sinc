@@ -10,7 +10,7 @@ function App() {
     <BrowserRouter>
       <ScrollToTop />
       <Routes>
-        <Route path="/" element={<Layout />}>
+        <Route path="/sinc" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="*" element={<NoPage />} />
         </Route>

@@ -63,7 +63,7 @@ export default function HowItWorks() {
           </p>
         </div>
       </div>
-      <Link to="/support" className="action">
+      <Link to="/sinc/support" className="action">
         Support the Future <img src={arrow} alt="down-right arrow" />
       </Link>
       <div className="button">

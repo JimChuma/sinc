@@ -13,7 +13,7 @@ export default function Future() {
         Gasus Business, a business built on the foundation of Christian values
         and belief.
       </p>
-      <Link to="/future">Read About Us</Link>
+      <Link to="/sinc/future">Read About Us</Link>
     </section>
   );
 }

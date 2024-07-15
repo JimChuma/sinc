@@ -98,7 +98,7 @@ export default function InvestorNetwork() {
                   Work with Service Incubators (SINC) to expedite your <br />time to
                   market
                 </p>
-                <Link to="/join">Join SINC Network</Link>
+                <Link to="/sinc/join">Join SINC Network</Link>
               </div>
             </div>
           </div>

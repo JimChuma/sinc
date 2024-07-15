@@ -57,13 +57,13 @@ export default function Incubation() {
             (SEEQ) and what the value of your share equity can be over time
           </p>
           <div className="grid">
-            <Link to="/case-study-one">Service Incubator Equity</Link>
-            <Link to="/case-study-two">SEEQ Maths Equation</Link>
-            <Link to="/case-study-three">Value of my Equity Over Time</Link>
+            <Link to="/sinc/case-study-one">Service Incubator Equity</Link>
+            <Link to="/sinc/case-study-two">SEEQ Maths Equation</Link>
+            <Link to="/sinc/case-study-three">Value of my Equity Over Time</Link>
           </div>
         </div>
       </div>
-      <Link to="/service-incubator" className="action">
+      <Link to="/sinc/service-incubator" className="action">
         Become A Service Incubator <img src={arrow} alt="down-right arrow" />
       </Link>
     </section>
