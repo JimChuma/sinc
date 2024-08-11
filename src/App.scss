@@ -481,7 +481,7 @@ footer {
 
 // MEDIA QUERIES LAYOUT NAVBAR
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1420px) {
   nav {
     ul,
     .action {
@@ -510,7 +510,7 @@ footer {
 
 // MEDIA QUERIES LAYOUT FOOTER
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1420px) {
   footer {
     padding: 24px 18px;
 
@@ -1582,7 +1582,7 @@ footer {
 
   // MEDIA QUERIES HOMEPAGE
 
-  @media screen and (max-width: 1020px) {
+  @media screen and (max-width: 1420px) {
     header {
       grid-template-columns: 100%;
       justify-content: start;
