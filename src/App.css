@@ -355,7 +355,7 @@ footer .bottom .make span {
   font-style: normal;
 }
 
-@media screen and (max-width: 1420px) {
+@media screen and (max-width: 1240px) {
   nav ul,
   nav .action {
     display: none !important;
@@ -374,7 +374,7 @@ footer .bottom .make span {
     justify-content: end;
   }
 }
-@media screen and (max-width: 1420px) {
+@media screen and (max-width: 1240px) {
   footer {
     padding: 24px 18px;
   }
@@ -1537,7 +1537,7 @@ footer .bottom .make span {
   background-color: #303030;
   color: #ffffff;
 }
-@media screen and (max-width: 1420px) {
+@media screen and (max-width: 1240px) {
   .homepage header {
     grid-template-columns: 100%;
     justify-content: start;
